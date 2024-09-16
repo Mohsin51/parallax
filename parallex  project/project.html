@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "jost";
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            background-image: url("hero-image.jpg");
+            display: grid;
+            place-items: center;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h2{
+            font-size: 64px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+        }
+        p{
+            font-size: 20px;
+            color: #fff;
+        }
+        .section-2{
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-image: url("toy-image.jpg")
+        }
+        .section-3{
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-image: url("business-image.jpg")
+        }
+        .section-4{
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-image: url("watch-image.jpg")
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h2>Parallax</h2>
+            <p>The Best CSS Course Ever</p>
+        </div>
+    </section>
+    <section class="section-2">
+        <div>
+            <h2>Parallax</h2>
+            <p>The Best Toys for every one</p>
+        </div>
+    </section>
+    <section class="section-3">
+        <div>
+            <h2>Parallax</h2>
+            <p>Grow your Business</p>
+        </div>
+    </section><section class="section-4">
+        <div>
+            <h2>Parallax</h2>
+            <p>The Best Watches</p>
+        </div>
+    </section>
+</body>
+</html>
